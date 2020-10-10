@@ -1,7 +1,7 @@
 // Add MongoClient import here
-
+import MongoClient from 'mongodb';
 // Add your database URL here
-let mongoURL = '';
+let mongoURL = 'mongodb://localhost:27017';
 
 // This variable will be used in the assertion. Assign proper DB connection value to it
 let connected = false;
@@ -14,8 +14,8 @@ const collectionName = 'connectionTest';
   let connection;
 
   // Implement connecting to the database here
-
-
+  connection = await MongoClient.connect(mongoURL);
+  connected = connection.isConnected();
   console.assert(connected === true, 'Should be connected', connected);
 
   if (connected) {
