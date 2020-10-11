@@ -1,5 +1,6 @@
 // Add MongoClient import here
 import MongoClient from 'mongodb';
+
 // Add your database URL here
 let mongoURL = 'mongodb://localhost:27017';
 
@@ -15,7 +16,10 @@ const collectionName = 'connectionTest';
 
   // Implement connecting to the database here
   connection = await MongoClient.connect(mongoURL);
+  console.log(connection.isConnected());
   connected = connection.isConnected();
+
+
   console.assert(connected === true, 'Should be connected', connected);
 
   if (connected) {
@@ -33,7 +37,7 @@ const collectionName = 'connectionTest';
       status: true,
       numValue: 129,
       dateConnected: new Date(),
-      arrayTest: [1,2,3],
+      arrayTest: [3,2,1],
       codeExample: new MongoClient.Code('function() {console.log(\'Hello World!\');}'),
       binData: new MongoClient.Binary(Buffer.alloc(16, 'aa456423425234fbc34124b'), 0),
     });

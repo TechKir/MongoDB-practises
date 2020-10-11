@@ -25,18 +25,27 @@ const collectionName = 'telNumbers';
     let finalNumbersString = '';
 
     // HERE - you can add helper callback for both pages
-
-    // HERE - add your first page
-
-    // HERE - add your second page
-
-    // HERE - glue all the data here!
-
+    //
+    // // HERE - add your first page
+    const cursorOne = collection.find({}).sort({"name": 1}).skip(0).limit(5);
+    let pageElements = [];
+    await cursorOne.forEach( record => pageElements.push(record.name+','+record.telNumber));
+    pageData.push(pageElements.join(';'));
+    //
+    // // HERE - add your second page
+    const cursorTwo = collection.find({}).sort({"name": 1}).skip(5).limit(5);
+    pageElements = [];
+    await cursorTwo.forEach( record => pageElements.push(record.name+','+record.telNumber));
+    pageData.push(pageElements.join(';'));
+    //
+    // // HERE - glue all the data here!
+    pageData = pageData.map( (page,index) => `${index + 1}: ${page}`)
+    finalNumbersString = pageData.join('\n');
     // Assertion below - do not modify!
     console.assert(finalNumbersString ===
-      '1: Biddie Lightman,338-317-6767;Camille Elmes,573-476-8283;Cathlene Kintzel,670-756-3287;Cherish Cleugher,750-168-7463;Elsy Flecknoe,208-390-8304\n' +
-      '2: Enrique Burgan,314-570-1648;Iain Danielski,260-602-7461;Irene Petkov,361-427-4074;Joyous Woolf,721-962-5123;Julieta Lemmer,331-433-7338',
-      'Should match given format', finalNumbersString);
+        '1: Biddie Lightman,338-317-6767;Camille Elmes,573-476-8283;Cathlene Kintzel,670-756-3287;Cherish Cleugher,750-168-7463;Elsy Flecknoe,208-390-8304\n' +
+        '2: Enrique Burgan,314-570-1648;Iain Danielski,260-602-7461;Irene Petkov,361-427-4074;Joyous Woolf,721-962-5123;Julieta Lemmer,331-433-7338',
+        'Should match given format', finalNumbersString);
 
     await client.close();
 
@@ -46,4 +55,3 @@ const collectionName = 'telNumbers';
     return process.exit(1);
   }
 })();
-

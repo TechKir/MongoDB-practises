@@ -24,6 +24,9 @@ const collectionName = 'secret';
     // HERE - add your query + sorting
     let secretPhrase = '';
 
+    const filteredSecretData = collection.find({isSecret: true});
+    const sortedData = filteredSecretData.sort({createdAt: 1 });
+    await sortedData.forEach( data => secretPhrase += data.letter);
     console.log(`Your secret phrase is: ${secretPhrase}`);
 
     await client.close();

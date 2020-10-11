@@ -22,6 +22,15 @@ const collectionName = 'numbers';
     const collection = db.collection(collectionName);
 
     // HERE - add your update code
+/*
+    db.collection.updateOne({phoneNo: '48691919191'
+    },{
+      $inc:{
+        phoneNo: '48616161616'
+      }
+    });
+*/
+
 
     // Assertions below - do not modify them!
     const changedContact = await collection.findOne({phoneNo: '48616161616'});

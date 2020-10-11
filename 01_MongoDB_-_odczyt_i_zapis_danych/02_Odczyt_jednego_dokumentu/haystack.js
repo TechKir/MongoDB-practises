@@ -23,12 +23,14 @@ const collectionName = 'haystack';
 
     let needle;
     // HERE - insert your `findOne()` code
-    needle = await collection.findOne({
+    const needleProperties = {
       length: 5,
       material: 'metal',
       weight: 1
-    })
-    console.log(needle)
+    };
+    needle = await collection.findOne(needleProperties);
+    console.log(needle);
+
     // Assertions below - do not modify them
     console.assert(needle && needle.length === 5, 'Should have length of 5cm', needle);
     console.assert(needle && needle.material === 'metal', 'Should be made out of metal', needle);
@@ -42,4 +44,3 @@ const collectionName = 'haystack';
     return process.exit(1);
   }
 })();
-

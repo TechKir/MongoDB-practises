@@ -872,4 +872,3 @@ const collectionName = 'music';
     return process.exit(1);
   }
 })();
-

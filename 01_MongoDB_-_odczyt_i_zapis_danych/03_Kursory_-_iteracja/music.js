@@ -23,12 +23,20 @@ const collectionName = 'music';
 
     // HERE - insert iteration using "forEach" method
     let toListenTimeForEach = 0;
+    const unlistenedSongs = await collection.find({"listened" : false});
+    await unlistenedSongs.forEach( song => toListenTimeForEach+=song.length);
 
     // Assertions below - do not change them
     console.assert(toListenTimeForEach === 4897, 'Should sum up to 4897 seconds', toListenTimeForEach);
 
     // HERE - insert iteration using "next()" method
     let toListenTimeNext = 0;
+    const unlistenedSongs2 = await collection.find({"listened" : false});
+    while (await unlistenedSongs2.hasNext()){
+      let song = await unlistenedSongs2.next();
+      toListenTimeNext+=song.length;
+    }
+    console.log(toListenTimeNext)
 
     // Assertions below - do not change them
     console.assert(toListenTimeForEach === toListenTimeNext, 'Should be equal between two methods', toListenTimeNext);

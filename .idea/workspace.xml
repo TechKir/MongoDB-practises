@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b4aeb3c-15f3-452d-bb50-1f023f3054e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/01_MongoDB_-_adapter/connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/01_MongoDB_-_adapter/connect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/02_Odczyt_jednego_dokumentu/haystack.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/02_Odczyt_jednego_dokumentu/haystack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/03_Kursory_-_iteracja/music.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/03_Kursory_-_iteracja/music.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/03_Kursory_-_iteracja/populate.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/03_Kursory_-_iteracja/populate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/04_Sortowanie_wynikow_-_zadanie_dodatkowe/secret.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/04_Sortowanie_wynikow_-_zadanie_dodatkowe/secret.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/05_Stronicowanie_-_zadanie_dodatkowe/tel-numbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/05_Stronicowanie_-_zadanie_dodatkowe/tel-numbers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/06_Dodawanie_wielu_dokumentow_-_zadanie_dodatkowe/logs.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/06_Dodawanie_wielu_dokumentow_-_zadanie_dodatkowe/logs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Usuwanie_i_proste_modyfikacje_danych/01_Modyfikacja_danych_-_pojedynczy_dokument/update-number.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_Usuwanie_i_proste_modyfikacje_danych/01_Modyfikacja_danych_-_pojedynczy_dokument/update-number.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1igSTRdE6ul2yE03cwpOXXSpY6I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b4aeb3c-15f3-452d-bb50-1f023f3054e7" name="Default Changelist" comment="" />
+      <created>1602327750945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602327750945</updated>
+      <workItem from="1602327753522" duration="14508000" />
+      <workItem from="1602353885870" duration="708000" />
+      <workItem from="1602355482098" duration="1124000" />
+      <workItem from="1602357210310" duration="58000" />
+      <workItem from="1602357431510" duration="10394000" />
+      <workItem from="1602369826054" duration="229000" />
+      <workItem from="1602421624833" duration="1188000" />
+      <workItem from="1602423007574" duration="13965000" />
+      <workItem from="1602442343153" duration="1445000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="714" y="344" key="#Notifications" timestamp="1602333501908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1602333501908" />
+    <state x="310" y="88" key="CommitChangelistDialog2" timestamp="1602435725862">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="310" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602435725862" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602361068121">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602361068121" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602423063108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602423063108" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1602423063107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602423063107" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1602423063107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602423063107" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1602423063108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602423063108" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1602338787918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602338787918" />
+    <state width="839" height="446" key="SwitcherDM" timestamp="1602363231189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="839" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1602363231189" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1602369361129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602369361129" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../dzien 29/zadanie/folderStructure/app.js</url>
+          <line>63</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

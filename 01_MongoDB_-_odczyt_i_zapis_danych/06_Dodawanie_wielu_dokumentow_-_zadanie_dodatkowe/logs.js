@@ -44,6 +44,22 @@ const collectionName = 'logs';
       '5e6bb094fc13ae75dc000009,apps,2019-06-26T02:24:49Z,DEBUG,App 678698745 initialized properly';
 
     // HERE - parse the string and insert to the DB below!
+    //let logsArray=[];
+    let logsObjectArray = [];
+    let logsArray=logString.split(';');
+
+    await logsArray.forEach( log => {
+      let logsData = log.split(',')
+      logsObjectArray.push({
+        _id:logsData[0],
+        domain:logsData[1],
+        date:logsData[2],
+        severity:logsData[3],
+        message:logsData[4]
+      })
+    });
+
+    await collection.insertMany(logsObjectArray);
 
     // Assertions below - do not modify them!
     const messages = collection.find({});
