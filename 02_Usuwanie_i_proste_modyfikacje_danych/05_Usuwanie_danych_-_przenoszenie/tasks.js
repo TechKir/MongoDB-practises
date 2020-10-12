@@ -24,6 +24,9 @@ const completedCollectionName = 'completedTasks';
     const completedCollection = db.collection(completedCollectionName);
 
     // 1. UPDATE TASK
+    const bulbsTask = await collection.findOne({"name" : "Change lightbulbs"});
+    await completedCollection.insertOne(bulbsTask)
+    await collection.deleteOne({"name":"Change lightbulbs"})
 
     let unfinishedTasks = await collection.find({}).toArray();
     console.assert(unfinishedTasks && unfinishedTasks.length === 2, 'Should have two unfinished tasks', unfinishedTasks);
@@ -31,6 +34,15 @@ const completedCollectionName = 'completedTasks';
     console.assert(completedTasks && completedTasks.length === 1, 'Should have one completed task', completedTasks);
 
     // 2. REVERT CHANGES HERE
+    const bulbsTaskFromTrash =await completedCollection.findOne({"name" : "Change lightbulbs"});
+    await collection.insertOne(bulbsTaskFromTrash);
+    collection.updateOne({"name" : "Change lightbulbs"},{
+      $set:{
+        "dueDate": new Date().setDate(new Date().getDate()+7)
+      }
+    });
+
+    await completedCollection.deleteOne({"name":"Change lightbulbs"});
 
     unfinishedTasks = await collection.find({}).toArray();
     console.assert(unfinishedTasks && unfinishedTasks.length === 3, 'Should have three unfinished tasks again', unfinishedTasks);

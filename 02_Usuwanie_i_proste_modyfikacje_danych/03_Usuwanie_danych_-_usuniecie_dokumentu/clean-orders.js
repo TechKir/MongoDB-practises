@@ -25,6 +25,13 @@ const collectionName = 'orders';
 
     // REMOVE PROPER ENTRIES HERE
 
+    const marginDate = new Date().setFullYear(2018)
+
+    collection.deleteMany({ "orderDate":{
+        $lte:marginDate
+      }
+    });
+
     const ordersAfterCleaningUp = await collection.find({}).toArray();
     console.assert(ordersAfterCleaningUp && ordersAfterCleaningUp.length === 2, 'Should have 2 orders after cleaning up', allOrders);
     const orderNames = (ordersAfterCleaningUp && ordersAfterCleaningUp.map(order => order.name)) || [];

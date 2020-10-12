@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b4aeb3c-15f3-452d-bb50-1f023f3054e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/01_MongoDB_-_adapter/connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/01_MongoDB_-_adapter/connect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/02_Odczyt_jednego_dokumentu/haystack.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/02_Odczyt_jednego_dokumentu/haystack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/03_Kursory_-_iteracja/music.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/03_Kursory_-_iteracja/music.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/03_Kursory_-_iteracja/populate.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/03_Kursory_-_iteracja/populate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/04_Sortowanie_wynikow_-_zadanie_dodatkowe/secret.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/04_Sortowanie_wynikow_-_zadanie_dodatkowe/secret.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/05_Stronicowanie_-_zadanie_dodatkowe/tel-numbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/05_Stronicowanie_-_zadanie_dodatkowe/tel-numbers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/06_Dodawanie_wielu_dokumentow_-_zadanie_dodatkowe/logs.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_MongoDB_-_odczyt_i_zapis_danych/06_Dodawanie_wielu_dokumentow_-_zadanie_dodatkowe/logs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_Usuwanie_i_proste_modyfikacje_danych/01_Modyfikacja_danych_-_pojedynczy_dokument/update-number.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_Usuwanie_i_proste_modyfikacje_danych/01_Modyfikacja_danych_-_pojedynczy_dokument/update-number.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Usuwanie_i_proste_modyfikacje_danych/02_Modyfikacja_danych_-_wiele_dokumentow/update-movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_Usuwanie_i_proste_modyfikacje_danych/02_Modyfikacja_danych_-_wiele_dokumentow/update-movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Usuwanie_i_proste_modyfikacje_danych/03_Usuwanie_danych_-_usuniecie_dokumentu/clean-orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_Usuwanie_i_proste_modyfikacje_danych/03_Usuwanie_danych_-_usuniecie_dokumentu/clean-orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Usuwanie_i_proste_modyfikacje_danych/04_Usuwanie_danych_-_flaga/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_Usuwanie_i_proste_modyfikacje_danych/04_Usuwanie_danych_-_flaga/tasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Usuwanie_i_proste_modyfikacje_danych/05_Usuwanie_danych_-_przenoszenie/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_Usuwanie_i_proste_modyfikacje_danych/05_Usuwanie_danych_-_przenoszenie/tasks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,9 @@
       <workItem from="1602369826054" duration="229000" />
       <workItem from="1602421624833" duration="1188000" />
       <workItem from="1602423007574" duration="13965000" />
-      <workItem from="1602442343153" duration="1445000" />
+      <workItem from="1602442343153" duration="1984000" />
+      <workItem from="1602447974032" duration="7611000" />
+      <workItem from="1602497133356" duration="626000" />
     </task>
     <servers />
   </component>

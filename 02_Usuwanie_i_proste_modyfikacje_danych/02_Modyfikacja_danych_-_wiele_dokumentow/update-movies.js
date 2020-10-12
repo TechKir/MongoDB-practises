@@ -22,6 +22,26 @@ const collectionName = 'movies';
     const collection = db.collection(collectionName);
 
     // HERE - add your update code
+    //ROZWIĄZANIE 1:
+    // collection.updateMany({"series" : "Mad Max"},{
+    //   $set:{
+    //     "seen" : true
+    //   }
+    // })
+    // collection.updateMany({"series" : "Mission: Impossible"},{
+    //   $set:{
+    //     "seen" : true
+    //   }
+    // })
+    //ROZWIĄZANIE 2:
+    collection.updateMany({"series":{
+        $in:["Mission: Impossible","Mad Max"]
+      }
+    },{
+      $set:{
+        "seen": true
+      }
+    })
 
     // Assertions below - do not modify them!
     const madMaxMovies = await collection.find({series: 'Mad Max'}).toArray();

@@ -22,6 +22,12 @@ const collectionName = 'tasks';
     const collection = db.collection(collectionName);
 
     // 1. UPDATE TASK HERE
+  collection.updateOne({"name" : "Change lightbulbs"},{
+    $set:{
+      "done":true
+    }
+  })
+
 
     let updatedChangeLightulbs = await collection.findOne({name: 'Change lightbulbs'});
     let allUnfinishedTasks = await collection.find({done: false}).toArray();
@@ -31,6 +37,12 @@ const collectionName = 'tasks';
       allUnfinishedTasks);
 
     // 2. REVERT CHANGES HERE
+    collection.updateOne({"name" : "Change lightbulbs"},{
+      $set:{
+        "done":false,
+        "dueDate": new Date().setDate(new Date().getDate()+7)
+      }
+    })
 
     updatedChangeLightulbs = await collection.findOne({name: 'Change lightbulbs'});
     allUnfinishedTasks = await collection.find({done: false}).toArray();
