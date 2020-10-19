@@ -20,47 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b4aeb3c-15f3-452d-bb50-1f023f3054e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/.config/exercises.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/01_Operatory_porownania/discounted.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/01_Operatory_porownania/internals/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/01_Operatory_porownania/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/01_Operatory_porownania/populate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/01_Operatory_porownania/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/02_Operatory_porownania_-_dodatkowe/albums.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/02_Operatory_porownania_-_dodatkowe/internals/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/02_Operatory_porownania_-_dodatkowe/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/02_Operatory_porownania_-_dodatkowe/populate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/02_Operatory_porownania_-_dodatkowe/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/03_Operatory_logiczne/discounted.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/03_Operatory_logiczne/internals/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/03_Operatory_logiczne/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/03_Operatory_logiczne/populate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/03_Operatory_logiczne/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/04_Operatory_logiczne_-_dodatkowe/football.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/04_Operatory_logiczne_-_dodatkowe/internals/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/04_Operatory_logiczne_-_dodatkowe/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/04_Operatory_logiczne_-_dodatkowe/populate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/04_Operatory_logiczne_-_dodatkowe/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/05_Operatory_elementow/internals/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/05_Operatory_elementow/migration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/05_Operatory_elementow/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/05_Operatory_elementow/populate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/05_Operatory_elementow/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/06_Operator_wyrazen_JS/brokenLogs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/06_Operator_wyrazen_JS/internals/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/06_Operator_wyrazen_JS/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/06_Operator_wyrazen_JS/populate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/06_Operator_wyrazen_JS/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/07_Operatory_tablicowe/forumUsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/07_Operatory_tablicowe/internals/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/07_Operatory_tablicowe/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/07_Operatory_tablicowe/populate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/07_Operatory_tablicowe/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Dodatkowe_operatory_MongoDB/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WAR_FSF_O_04_Weather/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MongoDB-practises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MongoDB-practises.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +90,10 @@
       <workItem from="1602592597268" duration="374000" />
       <workItem from="1602594443995" duration="1120000" />
       <workItem from="1602614326931" duration="251000" />
+      <workItem from="1602695066979" duration="251000" />
+      <workItem from="1602701076468" duration="599000" />
+      <workItem from="1602930596330" duration="1289000" />
+      <workItem from="1603033700614" duration="1257000" />
     </task>
     <servers />
   </component>
