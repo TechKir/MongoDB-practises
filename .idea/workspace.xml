@@ -21,6 +21,23 @@
   <component name="ChangeListManager">
     <list default="true" id="4b4aeb3c-15f3-452d-bb50-1f023f3054e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/01_Schematy/mongo.js" beforeDir="false" afterPath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/01_Schematy/mongo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/01_Schematy/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/01_Schematy/mongoose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/02_Wymagalnosc_pol/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/02_Wymagalnosc_pol/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/03_Wartosci_domyslne/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/03_Wartosci_domyslne/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/04_Walidacja_i_funkcje/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/04_Walidacja_i_funkcje/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/05_Gettery_i_settery/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/05_Gettery_i_settery/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/06_Modele_-_zapytania/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/06_Modele_-_zapytania/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/07_Dokumenty_-_instancje_modelu/internals/populate.js" beforeDir="false" afterPath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/07_Dokumenty_-_instancje_modelu/internals/populate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/07_Dokumenty_-_instancje_modelu/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/07_Mongoose_ODM_-_przekroj_dzialania/07_Dokumenty_-_instancje_modelu/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/01_Lancuch_zapytan/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/01_Lancuch_zapytan/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/02_Wlasciwosci_wirtualne/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/02_Wlasciwosci_wirtualne/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/03_Metody_instancji_modeli/internals/assertions.js" beforeDir="false" afterPath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/03_Metody_instancji_modeli/internals/assertions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/03_Metody_instancji_modeli/internals/populate.js" beforeDir="false" afterPath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/03_Metody_instancji_modeli/internals/populate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/03_Metody_instancji_modeli/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/03_Metody_instancji_modeli/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/04_Metody_statyczne_schematu/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/04_Metody_statyczne_schematu/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/05_Hooki_-_zadanie_dodatkowe/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/05_Hooki_-_zadanie_dodatkowe/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WAR_FSF_O_04_MongoDB/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/04_Metody_statyczne_schematu/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WAR_FSF_O_04_MongoDB/08_Mongoose_API_-_mozliwosci_dodatkowe_funkcje/04_Metody_statyczne_schematu/task.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +111,8 @@
       <workItem from="1602701076468" duration="599000" />
       <workItem from="1602930596330" duration="1289000" />
       <workItem from="1603033700614" duration="1257000" />
+      <workItem from="1603358081508" duration="769000" />
+      <workItem from="1603553457312" duration="905000" />
     </task>
     <servers />
   </component>

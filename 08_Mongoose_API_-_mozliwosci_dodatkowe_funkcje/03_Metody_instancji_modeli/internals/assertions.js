@@ -3,7 +3,7 @@ export const runAssertions = async (model) => {
 
   const order = await model.findById('654654654654654654654654').exec();
   console.assert(order, 'Should find an order', order);
-
+  
   console.assert(order.getRelatedProducts, 'Should have "getRelatedProducts" defined',
     order.getRelatedProducts);
 

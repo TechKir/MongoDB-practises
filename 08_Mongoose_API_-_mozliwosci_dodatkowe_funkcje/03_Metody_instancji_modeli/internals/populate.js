@@ -9,7 +9,7 @@ const ObjectID = MongoClient.ObjectID;
 
 const products = [{
   _id: new ObjectID('123123123123123123123123'),
-  name: 'Mocha',
+
   brand: 'Segafredo',
   available: 203,
   lastOrderDate: new Date(),
